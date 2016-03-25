@@ -1,0 +1,60 @@
+body{
+   background-color: #f0f0f0;
+}
+header{
+  background-color: #d40050;
+  height: 7rem;
+  width: 100%;
+}
+footer{
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.selectedprojectsblock{
+  background-color: white;
+  height: 75px;
+  width: 100%;
+}
+.selectedprojectsheadtext{
+  display: inline-block;
+  font-family: 'Lato';
+  font-size: 24px;
+  margin-left: 150px;
+  margin-top: 25.5px;
+  color: #cecece;
+}
+.selectedprojectsnav{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+.selectedprojectsnav li{
+  font-family: 'Lato';
+  display: inline-block;
+  position: relative;
+  color: #bebebe;
+  font-size: 12px;
+  margin-right: 6px;
+}
+.logo {
+  display: inline-block;
+  width: 17rem;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+}
+.nav li{
+  display: inline-block;
+  position: relative;
+  color: white;
+  padding-right: 30px;
+  font-family: 'Lato';
+  font-size: 15px;
+}
