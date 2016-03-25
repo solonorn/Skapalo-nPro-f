@@ -1,10 +1,31 @@
 body{
    background-color: #f0f0f0;
 }
-header{
+.header{
+  display: flex;
+  align-items: center;
   background-color: #d40050;
-  height: 7rem;
+  height: 112px;
   width: 100%;
+}
+.logo{
+  display: inline-block;
+  margin-left: 150px;
+  width: 11rem;
+}
+.nav{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.nav li{
+  display: inline-block;
+  position: relative;
+  color: white;
+  margin-left: 30px;
+  font-family: 'Lato';
+  font-size: 15px;
 }
 footer{
   background-color: white;
@@ -14,6 +35,8 @@ footer{
   bottom: 0;
 }
 .selectedprojectsblock{
+  display: flex;
+  align-items: center;
   background-color: white;
   height: 75px;
   width: 100%;
@@ -23,13 +46,12 @@ footer{
   font-family: 'Lato';
   font-size: 24px;
   margin-left: 150px;
-  margin-top: 25.5px;
   color: #cecece;
 }
 .selectedprojectsnav{
+  position: relative;
   display: flex;
   justify-content: flex-end;
-  margin-right: 150px;
 }
 .selectedprojectsnav li{
   font-family: 'Lato';
@@ -37,24 +59,6 @@ footer{
   position: relative;
   color: #bebebe;
   font-size: 12px;
-  margin-right: 6px;
 }
-.logo {
-  display: inline-block;
-  width: 17rem;
-  margin-left: 150px;
-  margin-top: 25px;
 }
-.nav{
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 150px;
-}
-.nav li{
-  display: inline-block;
-  position: relative;
-  color: white;
-  padding-right: 30px;
-  font-family: 'Lato';
-  font-size: 15px;
 }
