@@ -25,16 +25,25 @@ body{
   margin-left: 30px;
   font-family: 'Lato';
   font-size: 15px;
+  font-weight: bold;
 }
 .nav li a.active{
-  width: 3px;
-  height: 7px;
   border-radius: 3px;
   background-color: #aa0040;
-  padding: 5px;
+  padding: 3px 12px 3px 12px;
 }
-.nav:active{
-  color: black;
+.nav li a.active:after{
+  content: ' ';
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid #aa0040;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position:absolute;
+  left: 50%;
+  top: 100%;
+  margin-left: -10px;
 }
 footer{
   background-color: white;
@@ -69,9 +78,18 @@ footer{
   position: relative;
   color: #bebebe;
   font-size: 12px;
-  margin-left: 8px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.selectedprojectsnav li a.active{ /* Mun þurfa að nota JS hérna */
+  border-radius: 3px;
+  background-color: #eaeaea;
+  padding: 3px 9px 3px 9px;
 }
 a{
   color: inherit;
   text-decoration: none;
+}
+.bold{
+  font-weight: bold;
 }
