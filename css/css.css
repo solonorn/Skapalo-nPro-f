@@ -4,19 +4,18 @@ body{
 .header{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: #d40050;
   height: 112px;
   width: 100%;
 }
 .logo{
   display: inline-block;
-  margin-left: 150px;
   width: 11rem;
+  margin-left: 150px;
 }
 .nav{
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 35%; /* Mjög temporary lausn */
+  margin-right: 150px;
 }
 .nav li{
   display: inline-block;
@@ -45,6 +44,10 @@ body{
   top: 100%;
   margin-left: -10px;
 }
+.nav li a:hover{
+  color: #cecece;
+  transition: all 500ms ease;
+}
 footer{
   background-color: white;
   height: 100px;
@@ -55,22 +58,20 @@ footer{
 .selectedprojectsblock{
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: white;
   height: 75px;
   width: 100%;
+}
+.selectedprojectsnav{
+  margin-right: 150px;
 }
 .selectedprojectsheadtext{
   display: inline-block;
   font-family: 'Lato';
   font-size: 24px;
-  margin-left: 150px;
   color: #cecece;
-}
-.selectedprojectsnav{
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 55.7%; /* Sama hér mjög temp lausn */
+  margin-left: 150px;
 }
 .selectedprojectsnav li{
   font-family: 'Lato';
